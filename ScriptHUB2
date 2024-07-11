@@ -14,6 +14,10 @@ Section:NewButton("BenchOP (High Risk)", "dont press more then once or the game 
   loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Bench/main/OP"))()
 end)
 
+Section:NewButton("BatOP (High Risk)", "dont press more then once or the game will detect", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Bat/main/OP"))()
+end)
+
 Section:NewButton("Stamina (Low Risk)", "dont press more then once or the game will detect", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Sit/main/UP"))()
 end)
