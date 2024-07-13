@@ -6,10 +6,6 @@ local Window = Library.CreateLib("HAKAI_OFC Hub", "BloodTheme")
 local Main Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Auto Farm")
 
-Section:NewButton("infiniteyield (High Risk)", "dont press more then once or the game will detect", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-end)
-
 Section:NewButton("Health (High Risk)", "dont press more then once or the game will detect", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Push/main/up"))()
 end)
@@ -32,4 +28,8 @@ end)
 
 Section:NewButton("Strength Dumbbells (Low Risk Gamepass Only)", "dont press more then once or the game will detect", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Dumbell/main/OP"))()
+end)
+
+Section:NewButton("infiniteyield (High Risk)", "dont press more then once or the game will detect", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
