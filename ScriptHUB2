@@ -29,7 +29,3 @@ end)
 Section:NewButton("Strength Dumbbells (Low Risk Gamepass Only)", "dont press more then once or the game will detect", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Dumbell/main/OP"))()
 end)
-
-Section:NewButton("infiniteyield (High Risk)", "dont press more then once or the game will detect", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-end)
