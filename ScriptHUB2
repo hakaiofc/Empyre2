@@ -19,7 +19,7 @@ Section:NewButton("Stamina (Low Risk)", "dont press more then once or the game w
 end)
 
 Section:NewButton("Strength (Very High Risk)", "dont press more then once or the game will detect", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Punch/main/STR"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Bat/main/OP"))()
 end)
 
 Section:NewButton("Strength Dumbbells (Low Risk Gamepass Only)", "dont press more then once or the game will detect", function()
